@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.header {
+    /* border: 4px solid var(--primary-color); */
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    color: var(--primary-color);
+    /* border: 3px solid #333; */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 20px;
+}
+.brand-visual {
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.brand-name {
+    font-size: 15px;
+    /* border: 2px solid #2ecc71; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    /* border: 3px solid #333; */
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    margin-left: auto;
+}
+.download {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    border-radius: 2.5px;
+}
+.download:hover {
+    transition: 0.5s 0s;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.dropdown {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.content-subscription {
+    padding: 10px;
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.content-subscription .title {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 40px;
+}
+.content-subscription .title h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.pricing-plans {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.pricing-plans .free-plan .description p {
+    margin-bottom: 30px;
+}
+.pricing-plans .free-plan .details p {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.pricing-plans .free-plan .details span {
+    font-size: 40px;
+} 
+.pricing-plans .free-plan .details h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.features li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.free-download {
+    background-color: black;
+    color: white;
+    padding: 3px 15px;
+    cursor: pointer;
+    border-radius: 2.5px;
+}
+.free-download:hover {
+    transition: 0.2s 0s;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+.pricing-plans .standard-plan .description p {
+    margin-bottom: 30px;
+}
+.pricing-plans .standard-plan .details p {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.pricing-plans .standard-plan .details span {
+    font-size: 40px;
+} 
+.pricing-plans .standard-plan .details h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.pricing-plans .professional-plan .description p {
+    margin-bottom: 30px;
+}
+.pricing-plans .professional-plan .details p {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.pricing-plans .professional-plan .details span {
+    font-size: 40px;
+} 
+.pricing-plans .professional-plan .details h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.pricing-plans .enterprise-plan .description p {
+    margin-bottom: 30px;
+}
+.pricing-plans .enterprise-plan .details p {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.pricing-plans .enterprise-plan .details span {
+    font-size: 40px;
+} 
+.pricing-plans .enterprise-plan .details h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+.price-cards {
+   flex: 1;
+   padding: 20px;
+   /* border: red 2px solid; */
+} 
+
+
+.divider {
+    border: 0.5px solid black;
+    height: 575px;
+    width: 0.1%;
+    margin: auto 0;
+}
